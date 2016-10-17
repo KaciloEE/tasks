@@ -1,6 +1,6 @@
-a = [input().split() for i in range(int(input()))]
-name = input().strip()
+d={}
+for i in range(int(raw_input())):
+  line=raw_input().split()
+  d[line[0]]=sum(map(float,line[1:]))/3
 
-for i in (x[0] for x in a if x[0] == name):
-  print(a[i])
-
+print '%.2f' % d[raw_input()]
