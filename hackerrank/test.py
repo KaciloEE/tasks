@@ -1,10 +1,11 @@
-n = 17
-x = len(bin(n)[2:])
-width = len("{0:b}".format(n))
+s = 'AABAACAAD'
+s1=[]
+n = 0
+n1 =3
+while len(s)<9:
+  s1.append(s[n:n1])
+  n+=3
+  n1+=3
 
-for i in range(1,n+1):
-  print(i, oct(i)[2:].rjust(x),hex(i)[2:].rjust(x),bin(i)[2:].rjust(x))
 
-
-
-print(width)
+print(s1)
