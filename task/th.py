@@ -1,6 +1,16 @@
-import decimal
+s = "sabrrtuwacaddabra"
 
-n = '12345678'
-x = decimal.Decimal(n)
+final = ''
+cur = ''
+prev = ''
 
-print('{0:,}'.format(x).replace(',',' '))
+for i in s:
+    if i >= prev:
+        cur += i
+        if len(final) < len(cur):
+            final = cur
+    else:
+        cur = i
+    prev = i
+
+print(final)
