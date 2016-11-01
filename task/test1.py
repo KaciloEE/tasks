@@ -1,9 +1,11 @@
-def rev(s):
-    l = []
-    index = len(s)
-    while index:
-        index -= 1
-        l.append(s[index])
-    return "".join(l)
+s = "wowhatamanwowowpalehche"
+s1 = 'wow'
+l = []
+for i in range(len(s)):
+    n = s.find(s1, i)
+    if n !=-1:
+        l.append(n)
 
-print(rev('ambul'))
+print(len(set(l)))
+
+

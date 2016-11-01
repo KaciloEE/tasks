@@ -1,7 +1,5 @@
-s = 'hApPyHalLOweEn!'
-count = 0
-for i in s:
-    if i.lower() in ['a','e','i','o','u']:
-        count += 1
+s = "hApPyHalLOweEn!"
+g = ['a','e','i','o','u']
+n = [i for i in s if i.lower() in g]
 
-print(count)
+print(len(n))
