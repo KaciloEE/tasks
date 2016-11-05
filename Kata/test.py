@@ -9,4 +9,7 @@ for i in range(len(a)):
 for i in range(len(a)):
     s2.append(a[i][(size-1)-i])
 
+    
+    
 print(abs(sum(s1)-sum(s2)))
+
