@@ -12,4 +12,5 @@ for i in range(len(a)):
     
     
 print(abs(sum(s1)-sum(s2)))
+#test
 
