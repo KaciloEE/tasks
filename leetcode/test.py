@@ -1,6 +1,9 @@
-def hammingDistance(x, y):
-    print(bin(x))
-    print(bin(y))
-    return bin(x^y).count('1')
+def findComplement(num):
+    i = 1
+    while i <= num:
+        print(i)
+        i = i << 1
+        #print(i)
+    return (i - 1) ^ num
 
-print(hammingDistance(1,4))
+print(findComplement(5))
