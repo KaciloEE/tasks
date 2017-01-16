@@ -1,7 +1,7 @@
 class Solution(object):
     def findTheDifference(self, s, t):
         for ch in t:
-            if (s+t).count(ch)%2:
-                return ch;
+            if (s + t).count(ch) % 2:
+                return ch
 
-print(Solution().findTheDifference("abcd","abcde"))
+print(Solution().findTheDifference("abcd", "abcde"))

@@ -1,4 +1,7 @@
-#Calculate the sum of two integers a and b, but you are not allowed to use the operator + and -.
+# Calculate the sum of two integers a and b, but you are not allowed to
+# use the operator + and -.
+
+
 class Solution(object):
     def getSum(self, a, b):
         """
@@ -19,10 +22,9 @@ class Solution(object):
         # then get 32-bit positive's Python complement negative
         return a if a <= MAX else ~(a ^ mask)
 
-
     def sum1(self, a, b):
-        list = [a,b]
+        list = [a, b]
         return sum(list)
 
-print(Solution().getSum(3,3))
-print(Solution().sum1(3,3))
+print(Solution().getSum(3, 3))
+print(Solution().sum1(3, 3))
