@@ -11,4 +11,4 @@ class Solution(object):
         return s_count
 
 
-print(Solution().findMaxConsecutiveOnes([1, 1, 0, 1, 1, 1, 0, 1, 0]))
+print(Solution().findMaxConsecutiveOnes([0, 1, 1, 0, 1, 1, 1, 0, 1, 0]))
