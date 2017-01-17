@@ -1,5 +1,3 @@
-def t(a,b):
-    print("333")
-    return str(sum((map(int,(a,b)))))
+title = "Meanning"
 
-print(t('123','123'))
+print(title[::-1])
