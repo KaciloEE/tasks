@@ -18,5 +18,7 @@
 print(Solution().fizzBuzz(15))
 
 
-def fizzBuzz(self, n):
+def fizzBuzz(n):
     return ['Fizz' * (not i % 3) + 'Buzz' * (not i % 5) or str(i) for i in range(1, n + 1)]
+
+print(fizzBuzz(15))
